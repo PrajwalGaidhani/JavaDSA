@@ -23,6 +23,12 @@ public class BalanceParanthese {
                     need--;
                     insertion++;
                 }
+
+//                if (neededRight % 2 != 0) {
+//                    insertions++;   // Insert one ')'
+//                    neededRight--;  // Now it's even
+//                }
+
                 need+=2;
             }else{
                 need--;
